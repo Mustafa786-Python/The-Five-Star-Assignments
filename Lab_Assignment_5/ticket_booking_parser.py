@@ -1,3 +1,22 @@
+"""
+Movie Ticket Booking System – Key Points
+
+Ticket ID Structure: "MovieCode(3) + Seat(2) + Price(2) + Show(1)"
+
+Example: AVT1215M → Movie: AVT, Seat: 12, Price: 15, Show: M
+
+Tasks:
+
+Extract info from Ticket ID using string slicing and convert price to integer.
+
+Calculate total cost by summing ticket prices for group bookings.
+
+Display details: Movie, Seat, Price (formatted), Show time.
+
+Goal: Provide readable ticket info and total price for multiple tickets.
+"""
+
+
 ticket_ids = ["AVT1215M", "TLR0818E", "HPT1012A"]
 
 total_price = 0
